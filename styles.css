@@ -1,12 +1,13 @@
 body {
 	background-color: hsl(212, 45%, 89%);
-	padding: 8%;
 	font-family: 'outfit', outfit;
 	font-size: 15px;
+	align-items: center;
+	min-height: 100vh;
+	justify-content: center;
 }
 
-.container {
-	margin: auto;
+.main {
 	width: 250px;
 	border-radius: 15px;
 	padding: 20px;
