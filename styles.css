@@ -2,12 +2,18 @@ body {
 	background-color: hsl(212, 45%, 89%);
 	font-family: 'outfit', outfit;
 	font-size: 15px;
-	align-items: center;
+	display: flex;
+	align-items:center;
 	min-height: 100vh;
 	justify-content: center;
 }
 
-.main {
+h1 {
+	font-size: 1.5em;
+	color: hsl(218, 44%, 22%);
+}
+
+main {
 	width: 250px;
 	border-radius: 15px;
 	padding: 20px;
@@ -22,8 +28,4 @@ img {
 
 p {
 	color: hsl(220, 15%, 55%);
-}
-
-h2 {
-	color: hsl(218, 44%, 22%);
 }
